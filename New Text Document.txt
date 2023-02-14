@@ -1,0 +1,163 @@
+https://github.com/srikanth2102/COVID-19-Data-Analysis
+
+https://www.kaggle.com/code/sandhyakrishnan02/eda-covid-19-vaccines/notebook
+
+https://www.kaggle.com/code/anirbansahaanik/covid-19-vaccination-data-analysis
+
+https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+
+coding horror
+
+Posting a few resources for Web Development: 
+https://docs.google.com/document/d/1w3QXsNgp0Iu-s-JVoZdwrHYbgJU5UIs_aYDuqoHfv3E/edit?usp=sharing
+
+https://www.gavi.org/vaccineswork/covax-explained
+
+https://covid19.trackvaccines.org/voc/
+
+https://www.news-medical.net/news/20210217/GDP-significantly-associated-with-greater-COVID-19-vaccine-distribution
+
+https://www.nature.com/articles/d41586-020-03370-6
+
+https://infohub.crd.co/
+
+
+ Across high income countries, 
+877 million people (73.6% of the population) have now been fully vaccinated.12 In upper-middle
+income countries that number rises to 1.6 billion (73.9%). Most of these countries also have active
+booster programs for their vulnerable populations reflecting the latest WHO guidance, and in
+many cases for all adults. In general, these countries were able to strike individual bilateral deals
+with COVID-19 vaccine manufactures to secure relatively early deliveries of COVID-19 vaccines. 
+When combined with strong and well-funded health systems this allowed higher income countries
+to plan in advance and introduce successful mass vaccination strategies that were rolled out
+over the course of 2021. Upper-middle income countries were not able to move as fast as higherincome countries but have gradually caught up. 70% of the population of G20 count
+
+
+The CoVDP and partners are providing concerted support to 34 countries that
+were at or below 10% coverage in January 2022 and off track to achieve the WHO’s
+70% global coverage target by June 2022. It is providing the 10 countries facing the greatest
+challenges with immediate support on a rotating basis16
+ to help them address bottlenecks (see
+figure 5). The CoVDP works with countries and partners based on a ‘One Country Team’, ‘One Plan’,
+and ‘One Budget’17 approach to understand bottlenecks to vaccination. Countries are supported to
+access urgent operational funding, technical assistance, political engagement and demand and
+supply planning required to plan, implement and scale their vaccination response and monitor
+progress towards targets. The World Bank has approved vaccine operations in 27 of the 34 countries
+and in line with country requests is closely aligning its financing and support to overcoming the
+bottlenecks identified through the One Country Team approach.
+
+
+
+https://triplebyte.com
+
+
+
+https://www.freepascal.org/
+
+https://github.com/MasuodSamarin/smoke-detector
+
+
+https://atmega32-avr.com/how-to-build-alarm-security-system-using-motion-sensor-with-pcb-prototyping/
+
+
+https://aws.amazon.com/datasets/million-song-dataset/
+
+
+https://icarusfilms.com/if-guer#:~:text=GUERNICA%20is%20one%20of%20a,also%20available%20from%20Icarus%20Films.
+
+
+https://harrypotter.fandom.com/wiki/Horcrux
+
+https://www.robosoftin.com/blog/cross-platform-ott-apps-design-development
+
+
+
+
+
+
+
+
+
+import wikipedia
+
+
+
+# search for a term
+result = wikipedia.search("wikipedia")
+print("Result search of 'Top 25 report':", result)
+
+# get the page: Neural network
+page = wikipedia.page(result[0])
+
+# get the title of the page
+title = page.title
+
+# get the categories of the page
+categories = page.categories
+
+# get the whole wikipedia page text (content)
+content = page.content
+
+# get all the links in the page
+links = page.links
+
+# get the page references
+references = page.references
+
+# summary
+summary = page.summary
+
+# print info
+print("Page content:\n", content, "\n")
+#print("Page title:", title, "\n")
+print("Categories:", categories, "\n")
+print("Links:", links, "\n")
+print("References:", references, "\n")
+print("Summary:", summary, "\n")
+
+# changing language
+# for a list of available languages,
+# check http://meta.wikimedia.org/wiki/List_of_Wikipedias link.
+language = "en"
+wikipedia.set_lang(language)
+
+
+
+https://www.wholewhale.com/tips/5-ways-use-wikipedia-stats-trends/
+
+/ mimics void sumArrays(uint8_t *a, uint8_t *b, uint8_t *c, byte length){} method
+    .global sumArrays
+    sumArrays:
+      //r18 is the byte length
+      //r24 and r25 first  array 31,30
+      //r23 and r22 second array 29,28
+      //r21 and r20 third  array 27,26
+
+      mov r30, r24
+      mov r31, r25
+      mov r28, r22
+      mov r29, r23
+      mov r26, r20
+      mov r27, r21
+      ldi r17, 0 //counter variable
+      ldi r19, 1
+      call printRegs
+      //jmp sumLoop
+
+      ret
+
+    sumLoop:
+      cp r17, r18
+      brge endSumLoop
+      ldi r16, 0
+      add r16, Z+
+      add r16, Y+
+      st X+, r16
+      add r17, r23
+      jmp sumLoop:
+    
+    endSumLoop: 
+      ret
+
+
+https://webscope.sandbox.yahoo.com/catalog.php?datatype=c
